@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.each do |i|
-    puts "#{i} #{dwarves[i]}"
+    puts "#{i}. #{dwarves[i]}"
   end
 end
 
