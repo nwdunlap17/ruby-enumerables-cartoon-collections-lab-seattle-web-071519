@@ -23,6 +23,7 @@ def find_the_cheese(array)
   array.each do |food|
     cheese_types.each do |cheese|
       if food == cheese
+        puts food +"!"
         return food
       else
         puts "#{array[i]} is not #{cheese}"
