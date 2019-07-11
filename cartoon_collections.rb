@@ -32,3 +32,6 @@ def find_the_cheese(array)
   end
   return nil
 end
+
+contains_cheddar = ["banana", "cheddar", "sock"]
+find_the_cheese(contains_cheddar)
