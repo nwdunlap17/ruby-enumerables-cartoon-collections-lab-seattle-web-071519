@@ -24,3 +24,6 @@ end
 
 i = "foo"
 p i.length
+if i.length > 4 do
+  p "Big"
+end
