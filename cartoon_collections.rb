@@ -5,8 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(cheer)
-  cheer.collect { |x| x + "!" }      
-  p cheer
+  puts cheer.collect { |x| x + "!" }      
 end
 
 def long_planeteer_calls(array)
