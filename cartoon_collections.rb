@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  dwarves.each do |i|
+  dwarves.size.times do |i|
     puts "#{i}. #{dwarves[i]}"
   end
 end
