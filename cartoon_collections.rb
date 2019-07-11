@@ -20,10 +20,12 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.size.times do |food|
+  array.size.times do |i|
     cheese_types.each do |cheese|
-      if array[food] == cheese
+      if array[i] == cheese
         return food
+      else
+        puts "#{array[i]} is not #{cheese}"
       end
     end
   end
