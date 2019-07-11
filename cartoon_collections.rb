@@ -26,7 +26,7 @@ def find_the_cheese(array)
         puts food +"!"
         return food
       else
-        puts "#{array[i]} is not #{cheese}"
+        puts "#{food} is not #{cheese}"
       end
     end
   end
