@@ -24,6 +24,6 @@ end
 
 i = "foo"
 p i.length
-if i.length > 4 {
+if i.length > 4
   p "Big"
-}
+end
