@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.size.times do |i|
-    puts "#{i}. #{dwarves[i]}"
+    puts "#{i+1}. #{dwarves[i]}"
   end
 end
 
