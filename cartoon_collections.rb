@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(cheer)
-  puts cheer.collect { |x| x + "!" } 
+  cheer = cheer.collect { |x| x + "!" } 
   return cheer
 end
 
