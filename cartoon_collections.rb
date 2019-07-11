@@ -19,4 +19,4 @@ def find_the_cheese(array)
 end
 
 dwarves = ["dopey", "Grumpy", "Bashful"]
-roll_call_dwarves(dwarves)
+summon_captain_planet(dwarves)
