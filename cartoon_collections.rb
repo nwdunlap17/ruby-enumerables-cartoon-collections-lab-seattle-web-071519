@@ -9,8 +9,11 @@ def summon_captain_planet(cheer)
   return cheer
 end
 
-def long_planeteer_calls(array)
-  # Your code here
+def long_planeteer_calls(calls)
+  calls.each do |i|
+    if i.size > 4 do return true end
+  end
+  return false
 end
 
 def find_the_cheese(array)
